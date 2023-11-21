@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C90BCCA42B0CC04C00B8F22A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90BCCA32B0CC04C00B8F22A /* main.swift */; };
+		C90BCCAB2B0CC07C00B8F22A /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90BCCAA2B0CC07C00B8F22A /* Tamagotchi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		C90BCCA02B0CC04C00B8F22A /* tamagotchiConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tamagotchiConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90BCCA32B0CC04C00B8F22A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C90BCCAA2B0CC07C00B8F22A /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C90BCCA32B0CC04C00B8F22A /* main.swift */,
+				C90BCCAA2B0CC07C00B8F22A /* Tamagotchi.swift */,
 			);
 			path = tamagotchiConsole;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90BCCAB2B0CC07C00B8F22A /* Tamagotchi.swift in Sources */,
 				C90BCCA42B0CC04C00B8F22A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

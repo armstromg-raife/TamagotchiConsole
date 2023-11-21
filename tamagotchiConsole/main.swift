@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let heidiTamagotchi = Tamagotchi("Heidi")
 
+print(heidiTamagotchi.happiness)
+heidiTamagotchi.happiness += 1
+print(heidiTamagotchi.happiness)
+heidiTamagotchi.eatSnack()
+print(heidiTamagotchi)
