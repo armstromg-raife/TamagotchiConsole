@@ -18,7 +18,7 @@ class Tamagotchi {
     var discipline:Int
     var age:Int
     var sick:Bool
-    var sleapping:Bool
+    var sleeping:Bool
     var lights:Bool
     var poop:Bool
     
@@ -31,7 +31,7 @@ class Tamagotchi {
         discipline=0
         age=0
         sick=false
-        sleapping=false
+        sleeping=false
         lights=true
         poop=false
         
@@ -53,9 +53,9 @@ class Tamagotchi {
             weight+=2
         }
     }
-    func sleeping(){
+    func putToSleep(){
         if lights==true{
-            sleapping=true
+            sleeping=true
             delay(10)
         }
     }
